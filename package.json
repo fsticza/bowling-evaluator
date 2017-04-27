@@ -1,0 +1,30 @@
+{
+  "name": "bowling",
+  "version": "1.0.0",
+  "description": "bowling evaluator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "npm run test:watch & npm start",
+    "test": "mocha  --colors ./*.spec.js",
+    "test:watch": "mocha --colors -w ./**/*.spec.js"
+  },
+  "author": {
+    "name": "Ferenc Sticza",
+    "email": "ferenc.sticza@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fsticza/bowling-evaluator.git"
+  },
+  "keywords": [
+    "node",
+    "bowling"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "eslint": "3.19.0",
+    "mocha": "^2.4.5"
+  }
+}
