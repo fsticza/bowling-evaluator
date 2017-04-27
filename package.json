@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node index",
     "dev": "npm run test:watch & npm start",
-    "test": "mocha  --colors ./*.spec.js",
-    "test:watch": "mocha --colors -w ./**/*.spec.js"
+    "test": "mocha  --colors ./**/*.spec.js",
+    "test:watch": "npm test -w"
   },
   "author": {
     "name": "Ferenc Sticza",
